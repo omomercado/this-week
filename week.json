@@ -1,0 +1,121 @@
+{
+  "week": "2026-10-wk03",
+  "range": "Tue 10.20 – Sat 10.24",
+  "updated": "2026-10-21",
+  "days": [
+    {
+      "key": "TUE",
+      "day": "Tuesday",
+      "date": "10.20",
+      "iso": "2026-10-20",
+      "headline": "TiempOmo Run Club",
+      "sub": "Pizza by Il Piacere",
+      "subStyle": "mono",
+      "photo": "photos/2026-10-20-tiempomo-run-club-omo-mercado-upland.jpg",
+      "alt": "TiempOmo run club runners posing in front of Omo Mercado at night in Upland",
+      "focus": "50% 35%",
+      "open": "5–11",
+      "callout": "",
+      "details": [
+        ["Run", "at 6:30 · all ages"],
+        ["Bar open to public", "· Inside Omo 21+"],
+        ["Use public parking", ""]
+      ],
+      "start": "2026-10-20T18:30:00-07:00",
+      "end": "2026-10-20T23:00:00-07:00",
+      "description": "TiempOmo run club meets at Omo Mercado at 6:30pm, all paces and ages welcome, with pizza by Il Piacere after. Bar open 5–11."
+    },
+    {
+      "key": "WED",
+      "day": "Wednesday",
+      "date": "10.21",
+      "iso": "2026-10-21",
+      "headline": "Cinema & Flights",
+      "sub": "Sinners (2025) on the projector at 8",
+      "subStyle": "mono",
+      "photo": "photos/2026-10-21-cinema-flights-sinners-omo-mercado-upland.jpg",
+      "alt": "Still from Sinners (2025): two men in period suits beside a vintage car",
+      "focus": "50% 40%",
+      "open": "5–11",
+      "callout": "Sinners 2025",
+      "details": [
+        ["Happy hour", "until 6"],
+        ["Cinema", "at 8 · Free admission + popcorn"],
+        ["Flights", "$20 · $15 Club Omo"],
+        ["BYOF", "· Sweets by Keely's on the deck"]
+      ],
+      "start": "2026-10-21T20:00:00-07:00",
+      "end": "2026-10-21T23:00:00-07:00",
+      "description": "Free movie night at Omo Mercado: Sinners (2025) at 8pm with free popcorn. Natural wine flights $20, $15 for Club Omo members."
+    },
+    {
+      "key": "THU",
+      "day": "Thursday",
+      "date": "10.22",
+      "iso": "2026-10-22",
+      "headline": "$10 Spritz Thursday",
+      "sub": "DJ set by brownsounds",
+      "subStyle": "mono",
+      "photo": "photos/2026-10-22-spritz-thursday-dj-brownsounds-omo-mercado.jpg",
+      "alt": "DJ brownsounds in headphones at the decks at Omo Mercado",
+      "focus": "50% 50%",
+      "open": "5–11",
+      "callout": "DJ at 7PM",
+      "details": [
+        ["Happy hour", "until 6"],
+        ["$10 spritz", "all day · $8 NA"],
+        ["BYOF", "· No food vendor"]
+      ],
+      "start": "2026-10-22T19:00:00-07:00",
+      "end": "2026-10-22T23:00:00-07:00",
+      "description": "$10 spritz all day ($8 NA) at Omo Mercado with a DJ set by brownsounds from 7pm."
+    },
+    {
+      "key": "FRI",
+      "day": "Friday",
+      "date": "10.23",
+      "iso": "2026-10-23",
+      "headline": "DJ Set by Mika",
+      "sub": "Celebrating Omo's Libras",
+      "subStyle": "lydian",
+      "photo": "photos/2026-10-23-dj-set-mika-omo-mercado-upland.jpg",
+      "alt": "DJ Mika in headphones and glasses at the decks",
+      "focus": "50% 50%",
+      "open": "5–11",
+      "callout": "DJ at 7PM",
+      "details": [
+        ["Happy hour", "until 6"],
+        ["Food", "by Tacos Tenoch"]
+      ],
+      "start": "2026-10-23T19:00:00-07:00",
+      "end": "2026-10-23T23:00:00-07:00",
+      "description": "Libra season night at Omo Mercado with a DJ set by Mika from 7pm and tacos by Tacos Tenoch."
+    },
+    {
+      "key": "SAT",
+      "day": "Saturday",
+      "date": "10.24",
+      "iso": "2026-10-24",
+      "headline": "DJ Set by Compas Discoteca",
+      "sub": "Food by Tacos Tenoch",
+      "subStyle": "mono",
+      "photo": "photos/2026-10-24-dj-set-compas-discoteca-omo-mercado.jpg",
+      "alt": "Compas Discoteca crew at the decks with a record crate",
+      "focus": "50% 50%",
+      "open": "5–11",
+      "callout": "DJ at 6PM",
+      "details": [
+        ["Happy hour", "until 6"],
+        ["Food", "by Tacos Tenoch"]
+      ],
+      "start": "2026-10-24T18:00:00-07:00",
+      "end": "2026-10-24T23:00:00-07:00",
+      "description": "Compas Discoteca DJ set at Omo Mercado from 6pm with tacos by Tacos Tenoch."
+    }
+  ],
+  "everyWeek": [
+    ["Happy hour", "until 6"],
+    ["Flights", "Wednesdays $20 · $15 Club Omo"],
+    ["$10 Spritz", "Thursdays · $8 NA"]
+  ]
+}
