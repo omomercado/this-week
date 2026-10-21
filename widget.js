@@ -28,7 +28,7 @@
   var CSS = [
     '.omo-tw{--tw-bg:#616C63;--tw-fg:#D4D0CB;--tw-line:rgba(212,208,203,.45);',
     "--tw-display:'Druk Condensed','Druk','druk-condensed','druk',Anton,Impact,sans-serif;",
-    "--tw-mono:'GT America Mono','gt-america-mono','DM Mono',ui-monospace,monospace;",
+    "--tw-mono:'SometypeMono','Sometype Mono','GT America Mono','gt-america-mono','DM Mono',ui-monospace,monospace;",
     "--tw-serif:'Lydian BT','Lydian',Georgia,serif;",
     'box-sizing:border-box;width:100%;text-align:left;background:var(--tw-bg);color:var(--tw-fg);font-family:var(--tw-mono);padding:104px 32px 112px;-webkit-font-smoothing:antialiased}',
     '.omo-tw *,.omo-tw *::before,.omo-tw *::after{box-sizing:border-box}',
