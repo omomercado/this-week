@@ -39,8 +39,8 @@
     '.omo-tw__header{display:flex;flex-direction:column;align-items:center;gap:28px;text-align:center}',
     '.omo-tw__age{font-size:14px;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}',
     '.omo-tw__age b{font-weight:600}',
-    '.omo-tw__title{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;column-gap:56px;row-gap:8px;font-family:var(--tw-display);font-weight:400;font-size:132px;line-height:.86;letter-spacing:.005em;text-transform:uppercase;text-align:center;color:var(--tw-fg)}',
-    '.omo-tw__arrow{width:34px;height:64px;flex:none}',
+    '.omo-tw__title{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;column-gap:40px;row-gap:8px;font-family:var(--tw-display);font-weight:400;font-size:96px;line-height:.86;letter-spacing:.005em;text-transform:uppercase;text-align:center;color:var(--tw-fg)}',
+    '.omo-tw__arrow{width:26px;height:48px;flex:none}',
     '.omo-tw__intro{max-width:640px;margin:4px auto 0!important;font-size:16px;line-height:1.7;letter-spacing:.02em;text-align:center;color:var(--tw-fg)}',
     // day tabs
     '.omo-tw__nav{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}',
@@ -55,6 +55,10 @@
     '.omo-tw__track{position:relative;display:flex;gap:32px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;scrollbar-width:none;',
     'margin:0 calc(-1 * var(--tw-bleed,32px));padding:0 var(--tw-bleed,32px);scroll-padding:0 var(--tw-bleed,32px)}',
     '.omo-tw__track::-webkit-scrollbar{display:none}',
+    '@media (hover:hover) and (pointer:fine){.omo-tw__track{cursor:grab}}',
+    '.omo-tw__track.is-dragging{cursor:grabbing;scroll-snap-type:none;scroll-behavior:auto;-webkit-user-select:none;user-select:none}',
+    '.omo-tw__track.is-dragging *{pointer-events:none;cursor:grabbing!important}',
+    '.omo-tw__track img{-webkit-user-drag:none;-webkit-user-select:none;user-select:none}',
     '.omo-tw__card{flex:0 0 clamp(300px,36vw,500px);scroll-snap-align:start;display:flex;flex-direction:column;gap:22px;transition:opacity .3s}',
     '.omo-tw__card[data-current="false"]{opacity:.45}',
     '.omo-tw__photo img{transition:filter .35s}',
@@ -187,7 +191,7 @@
 
   function card(d) {
     var img = el('img', {
-      src: BASE + d.photo, alt: d.alt || d.headline, loading: 'lazy', decoding: 'async', width: '1200', height: '1200'
+      src: BASE + d.photo, alt: d.alt || d.headline, loading: 'lazy', decoding: 'async', draggable: 'false', width: '1200', height: '1200'
     });
     img.style.objectPosition = d.focus || '50% 50%';
     var kids = [
@@ -269,6 +273,55 @@
       if (track.scrollTo) track.scrollTo({ left: left, behavior: smooth && !reducedMotion() ? 'smooth' : 'auto' });
       else track.scrollLeft = left;
     }
+
+    // Desktop: grab the cards and drag to scroll (touch already swipes natively).
+    // A plain click on a card selects that day, same as the day tabs.
+    var drag = null, justDragged = false;
+    function nearest() {
+      var best = 0, dist = Infinity;
+      cards.forEach(function (c, j) {
+        var dd = Math.abs(targetLeft(j) - track.scrollLeft);
+        if (dd < dist) { dist = dd; best = j; }
+      });
+      return best;
+    }
+    track.addEventListener('pointerdown', function (e) {
+      if (e.pointerType !== 'mouse' || e.button !== 0) return;
+      drag = { id: e.pointerId, x: e.clientX, left: track.scrollLeft, from: current, dx: 0, moved: false };
+    });
+    track.addEventListener('pointermove', function (e) {
+      if (!drag || e.pointerId !== drag.id) return;
+      var dx = e.clientX - drag.x;
+      if (!drag.moved) {
+        if (Math.abs(dx) < 5) return;
+        drag.moved = true;
+        track.classList.add('is-dragging');
+        try { track.setPointerCapture(e.pointerId); } catch (err) {}
+      }
+      drag.dx = dx;
+      track.scrollLeft = drag.left - dx;
+      e.preventDefault();
+    });
+    function endDrag(e) {
+      if (!drag || (e && e.pointerId !== drag.id)) return;
+      var d = drag; drag = null;
+      if (!d.moved) return;
+      justDragged = true;
+      setTimeout(function () { justDragged = false; }, 0);
+      var i = nearest();
+      if (Math.abs(d.dx) > 60 && i === d.from) i += d.dx < 0 ? 1 : -1; // a short pull still moves one day
+      i = Math.max(0, Math.min(cards.length - 1, i));
+      track.classList.remove('is-dragging');
+      go(i, true);
+    }
+    ['pointerup', 'pointercancel', 'lostpointercapture'].forEach(function (ev) { track.addEventListener(ev, endDrag); });
+    track.addEventListener('click', function (e) { // swallow the click that ends a drag
+      if (justDragged) { e.preventDefault(); e.stopPropagation(); }
+    }, true);
+    track.addEventListener('dragstart', function (e) { e.preventDefault(); });
+    cards.forEach(function (c, j) {
+      c.addEventListener('click', function () { if (j !== current) go(j, true); });
+    });
 
     var ticking = false;
     track.addEventListener('scroll', function () {
