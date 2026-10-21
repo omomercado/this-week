@@ -184,11 +184,10 @@
     var article = el('article', { class: 'omo-tw__day', 'aria-live': 'polite' }, [photo, copy]);
 
     var every = el('div', { class: 'omo-tw__every' });
-    (data.everyWeek || []).forEach(function (p) {
+    (data.everyWeek || []).forEach(function (p, i) {
+      if (i) every.appendChild(el('span', { class: 'omo-tw__sep', 'aria-hidden': 'true', text: '·' }));
       every.appendChild(el('span', null, pair(p)));
-      every.appendChild(el('span', { class: 'omo-tw__sep', 'aria-hidden': 'true', text: '·' }));
     });
-    every.appendChild(el('a', { href: 'https://www.instagram.com/omomercado/', rel: 'noopener', target: '_blank', text: 'Late adds on @omomercado' }));
 
     var section = el('section', { class: 'omo-tw', 'aria-labelledby': 'omo-tw-title' }, [
       el('div', { class: 'omo-tw__wrap' }, [
