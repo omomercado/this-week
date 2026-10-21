@@ -23,6 +23,8 @@
     }
   };
 
+  var DEFAULT_INTRO = "Something's always going at Omo. Run club on Tuesdays, a movie and wine flights on Wednesdays, $10 spritz on Thursdays, and DJs on the decks to close out the week. Here's what's on this week at Upland's neighborhood natural wine bar.";
+
   var CSS = [
     '.omo-tw{--tw-bg:#616C63;--tw-fg:#D4D0CB;--tw-line:rgba(212,208,203,.45);',
     "--tw-display:'Druk Condensed','Druk','druk-condensed','druk',Anton,Impact,sans-serif;",
@@ -36,6 +38,8 @@
     '.omo-tw__age{position:absolute;top:-68px;right:0;font-size:14px;letter-spacing:.1em;text-transform:uppercase;white-space:nowrap}',
     '.omo-tw__title{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;column-gap:56px;row-gap:8px;font-family:var(--tw-display);font-weight:400;font-size:132px;line-height:.86;letter-spacing:.005em;text-transform:uppercase;text-align:center;color:var(--tw-fg)}',
     '.omo-tw__arrow{width:34px;height:64px;flex:none}',
+    '.omo-tw__header{display:flex;flex-direction:column;align-items:center;gap:32px}',
+    '.omo-tw__intro{max-width:640px;margin:0 auto!important;font-size:16px;line-height:1.7;letter-spacing:.02em;text-align:center;color:var(--tw-fg)}',
     '.omo-tw__nav{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}',
     '.omo-tw__dot{width:12px;height:12px;border-radius:50%;background:var(--tw-fg);flex:none}',
     '.omo-tw__dot--l{margin-right:18px}.omo-tw__dot--r{margin-left:18px}',
@@ -69,6 +73,8 @@
     '.omo-tw__age{top:-40px;right:0;font-size:11px}',
     '.omo-tw__title{flex-direction:column;gap:10px;font-size:76px}',
     '.omo-tw__arrow{width:20px;height:38px}',
+    '.omo-tw__header{gap:24px}',
+    '.omo-tw__intro{font-size:14px;line-height:1.65}',
     '.omo-tw__nav{flex-wrap:nowrap;justify-content:space-between;gap:2px}',
     '.omo-tw__dot{width:8px;height:8px}.omo-tw__dot--l,.omo-tw__dot--r{margin:0}',
     '.omo-tw__tab{height:58px;min-width:0;width:62px;padding:0;border-radius:29px}',
@@ -158,6 +164,8 @@
 
   function render(root, data) {
     var days = data.days;
+    var introSrc = root.querySelector('[data-omo-intro]');
+    var introText = (introSrc && introSrc.textContent.trim()) || data.intro || DEFAULT_INTRO;
     var current = pickDefault(days);
 
     var tabs = days.map(function (d, i) {
@@ -192,7 +200,10 @@
     var section = el('section', { class: 'omo-tw', 'aria-labelledby': 'omo-tw-title' }, [
       el('div', { class: 'omo-tw__wrap' }, [
         el('p', { class: 'omo-tw__age' }, ['All Events · ', el('b', { text: 'Ages 21+' })]),
-        el('h2', { class: 'omo-tw__title', id: 'omo-tw-title' }, [el('span', { text: 'This Week' }), arrow(), el('span', { text: 'At Omo' })]),
+        el('header', { class: 'omo-tw__header' }, [
+          el('h2', { class: 'omo-tw__title', id: 'omo-tw-title' }, [el('span', { text: 'This Week' }), arrow(), el('span', { text: 'At Omo' })]),
+          el('p', { class: 'omo-tw__intro', text: introText })
+        ]),
         el('nav', { class: 'omo-tw__nav', 'aria-label': 'Days this week · ' + (data.range || '') }, [el('span', { class: 'omo-tw__dot omo-tw__dot--l', 'aria-hidden': 'true' })].concat(tabs, [el('span', { class: 'omo-tw__dot omo-tw__dot--r', 'aria-hidden': 'true' })])),
         article,
         every
