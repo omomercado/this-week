@@ -305,6 +305,31 @@
       if (current > -1) go(current, false);
     });
     schema(data);
+    jump();
+  }
+
+  // Deep links (IG bio, emails): omomercado.com/?go=this-week or /#this-week.
+  // Instagram's browser can drop #anchors, and the page keeps growing as images and
+  // this feed load, so scroll here ourselves and re-check as the layout settles.
+  function jump() {
+    var h = (location.hash || '').toLowerCase();
+    var q = (location.search || '').toLowerCase();
+    if (!/^#(this-?week|omo-this-week)$/.test(h) && !/[?&](go|section)=this-?week\b|[?&]this-?week\b/.test(q)) return;
+    var stop = false;
+    var halt = function () { stop = true; };
+    ['wheel', 'touchstart', 'keydown', 'mousedown'].forEach(function (e) { window.addEventListener(e, halt, { once: true, passive: true }); });
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    function to() {
+      if (stop) return;
+      var t = document.getElementById('this-week') || document.getElementById('omo-this-week');
+      if (!t) return;
+      var hdr = document.querySelector('header');
+      var off = hdr && getComputedStyle(hdr).position === 'fixed' ? hdr.offsetHeight : 0;
+      window.scrollTo(0, Math.max(0, t.getBoundingClientRect().top + window.pageYOffset - off));
+    }
+    to();
+    [150, 600, 1200, 2500].forEach(function (ms) { setTimeout(to, ms); });
+    window.addEventListener('load', function () { to(); setTimeout(to, 300); });
   }
 
   function boot() {
