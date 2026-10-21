@@ -315,21 +315,26 @@
     var h = (location.hash || '').toLowerCase();
     var q = (location.search || '').toLowerCase();
     if (!/^#(this-?week|omo-this-week)$/.test(h) && !/[?&](go|section)=this-?week\b|[?&]this-?week\b/.test(q)) return;
-    var stop = false;
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    var stop = false, t0 = Date.now(), steady = 0;
     var halt = function () { stop = true; };
     ['wheel', 'touchstart', 'keydown', 'mousedown'].forEach(function (e) { window.addEventListener(e, halt, { once: true, passive: true }); });
-    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
-    function to() {
-      if (stop) return;
+    function spot() {
       var t = document.getElementById('this-week') || document.getElementById('omo-this-week');
-      if (!t) return;
+      if (!t) return null;
       var hdr = document.querySelector('header');
       var off = hdr && getComputedStyle(hdr).position === 'fixed' ? hdr.offsetHeight : 0;
-      window.scrollTo(0, Math.max(0, t.getBoundingClientRect().top + window.pageYOffset - off));
+      return Math.max(0, Math.round(t.getBoundingClientRect().top + window.pageYOffset - off));
     }
-    to();
-    [150, 600, 1200, 2500].forEach(function (ms) { setTimeout(to, ms); });
-    window.addEventListener('load', function () { to(); setTimeout(to, 300); });
+    // Hold the section at the top while images, fonts and Squarespace scripts settle
+    // (they move things around for a few seconds), then let go.
+    (function tick() {
+      if (stop || Date.now() - t0 > 6000) return;
+      var y = spot();
+      if (y !== null && Math.abs(window.pageYOffset - y) > 2) { window.scrollTo(0, y); steady = 0; }
+      else if (++steady > 90 && document.readyState === 'complete') return; // ~1.5s still
+      requestAnimationFrame(tick);
+    })();
   }
 
   function boot() {
