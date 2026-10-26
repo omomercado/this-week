@@ -156,7 +156,11 @@
       ],
       "start": "2026-10-31T19:00:00-07:00",
       "end": "2026-10-31T23:00:00-07:00",
-      "description": "Ticketed Halloween party at Omo Mercado in Upland with Free Therapy DJ sets by Mika, Azerae, Daniel Pineda and Jeff Pesos from 7pm, a costume contest with cash prize and tacos by Tacos Tenoch."
+      "description": "Ticketed Halloween party at Omo Mercado in Upland with Free Therapy DJ sets by Mika, Azerae, Daniel Pineda and Jeff Pesos from 7pm, a costume contest with cash prize and tacos by Tacos Tenoch.",
+      "link": {
+        "label": "Buy Now",
+        "url": "https://posh.vip/e/free-therapy-presents-west-coast-thriller-inland-empire"
+      }
     }
   ],
   "everyWeek": [

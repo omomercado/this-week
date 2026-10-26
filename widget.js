@@ -75,6 +75,9 @@
     '.omo-tw__list{list-style:none;padding-top:18px!important;border-top:1px solid var(--tw-line);display:flex;flex-direction:column;gap:6px;font-size:15px;line-height:1.45;letter-spacing:-.02em;text-transform:uppercase}',
     '.omo-tw__list li{margin:0;padding:0}.omo-tw__list li::before{content:none!important}',
     '.omo-tw__list b,.omo-tw__every b{font-weight:600}',
+    '.omo-tw__btn{align-self:flex-start;display:inline-flex;align-items:center;justify-content:center;min-width:240px;height:64px;padding:0 40px;border:2px solid var(--tw-fg);border-radius:300px;background:transparent;color:var(--tw-fg)!important;text-decoration:none!important;font-family:\'Source Code Pro\',var(--tw-mono);font-size:14px;font-weight:500;letter-spacing:.03em;text-transform:none;white-space:nowrap;transition:background-color .2s,color .2s}',
+    '.omo-tw__btn:hover{background:var(--tw-fg);color:var(--tw-bg)!important}',
+    '.omo-tw__btn:focus-visible{outline:2px dashed var(--tw-fg);outline-offset:3px}',
     '.omo-tw__foot{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;padding-top:18px;border-top:1px solid var(--tw-line)}',
     '.omo-tw__open{display:flex;flex-direction:column;gap:4px}',
     '.omo-tw__open small{font-size:13px;letter-spacing:.12em;text-transform:uppercase}',
@@ -110,6 +113,7 @@
     '.omo-tw__sub{font-size:14px}.omo-tw__sub--lydian{font-size:22px}',
     '.omo-tw__list{padding-top:14px!important;font-size:13px;letter-spacing:-.02em}',
     '.omo-tw__foot{gap:14px;padding-top:14px}',
+    '.omo-tw__btn{height:56px;min-width:0;width:100%;font-size:13px}',
     '.omo-tw__open small{font-size:11px}.omo-tw__big{font-size:26px}',
     '.omo-tw__every{flex-direction:column;gap:8px;padding-top:24px;font-size:12px;line-height:1.5}',
     '.omo-tw__every .omo-tw__sep{display:none}',
@@ -180,6 +184,7 @@
         typicalAgeRange: '21-'
       };
       if (d.end) ev.endDate = d.end;
+      if (d.link && d.link.url) ev.offers = { '@type': 'Offer', url: d.link.url, availability: 'https://schema.org/InStock' };
       return ev;
     });
     var old = document.getElementById('omo-tw-schema');
@@ -201,6 +206,7 @@
     ];
     if (d.sub) kids.push(el('p', { class: 'omo-tw__sub' + (d.subStyle === 'lydian' ? ' omo-tw__sub--lydian' : ''), text: d.sub }));
     if (d.details && d.details.length) kids.push(el('ul', { class: 'omo-tw__list' }, d.details.map(function (p) { return el('li', null, pair(p)); })));
+    if (d.link && d.link.url) kids.push(el('a', { class: 'omo-tw__btn', href: d.link.url, target: '_blank', rel: 'noopener', text: d.link.label || 'Buy Now' }));
     var foot = [el('div', { class: 'omo-tw__open' }, [el('small', { text: 'Open' }), el('span', { class: 'omo-tw__big', text: d.open || '' })])];
     if (d.callout) foot.push(el('span', { class: 'omo-tw__big omo-tw__callout', text: d.callout }));
     kids.push(el('div', { class: 'omo-tw__foot' }, foot));
