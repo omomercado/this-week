@@ -102,22 +102,22 @@
       "date": "11.06",
       "iso": "2026-11-06",
       "headline": "Lucky Nick's Pizza",
-      "sub": "The final pop up · Celebrating their new restaurant",
+      "sub": "The final pop up",
       "subStyle": "mono",
       "photo": "photos/2026-11-06-lucky-nicks-pizza-final-pop-up-omo-mercado-upland.jpg",
       "alt": "Lucky Nick's Pizza pie with crumbled sausage and parmesan in an open pizza box",
       "focus": "50% 55%",
       "open": "5–11",
-      "callout": "",
+      "callout": "Food at 6PM",
       "details": [
         [
           "Happy hour",
           "until 6"
         ]
       ],
-      "start": "2026-11-06T17:00:00-08:00",
+      "start": "2026-11-06T18:00:00-08:00",
       "end": "2026-11-06T23:00:00-08:00",
-      "description": "The final Lucky Nick's Pizza pop up at Omo Mercado in Upland, celebrating the opening of their new restaurant. Bar open 5–11."
+      "description": "The final Lucky Nick's Pizza pop up at Omo Mercado in Upland before their new restaurant opens, with food from 6pm. Bar open 5–11."
     },
     {
       "key": "SAT",
