@@ -1,17 +1,17 @@
 {
-  "week": "2026-10-wk04",
-  "range": "Tue 10.27 – Sat 10.31",
-  "updated": "2026-10-26",
+  "week": "2026-11-wk01",
+  "range": "Tue 11.03 – Sat 11.07",
+  "updated": "2026-11-02",
   "days": [
     {
       "key": "TUE",
       "day": "Tuesday",
-      "date": "10.27",
-      "iso": "2026-10-27",
+      "date": "11.03",
+      "iso": "2026-11-03",
       "headline": "TiempOmo Run Club",
-      "sub": "Tacos by Prime Time Meats",
+      "sub": "Pizza by Crispy Piez",
       "subStyle": "mono",
-      "photo": "photos/2026-10-27-tiempomo-run-club-omo-mercado-upland.jpg",
+      "photo": "photos/2026-11-03-tiempomo-run-club-omo-mercado-upland.jpg",
       "alt": "TiempOmo run club runners mid-stride at dusk outside Omo Mercado in Upland",
       "focus": "50% 50%",
       "open": "5–11",
@@ -30,23 +30,23 @@
           ""
         ]
       ],
-      "start": "2026-10-27T18:30:00-07:00",
-      "end": "2026-10-27T23:00:00-07:00",
-      "description": "TiempOmo run club meets at Omo Mercado in Upland at 6:30pm, all ages welcome, with tacos by Prime Time Meats after. Bar open 5–11."
+      "start": "2026-11-03T18:30:00-08:00",
+      "end": "2026-11-03T23:00:00-08:00",
+      "description": "TiempOmo run club meets at Omo Mercado in Upland at 6:30pm, all ages welcome, with pizza by Crispy Piez after. Bar open 5–11."
     },
     {
       "key": "WED",
       "day": "Wednesday",
-      "date": "10.28",
-      "iso": "2026-10-28",
+      "date": "11.04",
+      "iso": "2026-11-04",
       "headline": "Cinema & Flights",
-      "sub": "Carrie (1976) on the projector at 8",
+      "sub": "Pan's Labyrinth (2006) on the projector at 8",
       "subStyle": "mono",
-      "photo": "photos/2026-10-28-cinema-flights-carrie-omo-mercado-upland.jpg",
-      "alt": "Still from Carrie (1976): Carrie on the prom stage covered in blood",
-      "focus": "50% 35%",
+      "photo": "photos/2026-11-04-cinema-flights-pans-labyrinth-omo-mercado-upland.jpg",
+      "alt": "Pan's Labyrinth projected on the screen at Omo Mercado in Upland under red paper lanterns, crowd watching",
+      "focus": "50% 45%",
       "open": "5–11",
-      "callout": "Carrie 1976",
+      "callout": "Pan's Labyrinth 2006",
       "details": [
         [
           "Happy hour",
@@ -59,108 +59,88 @@
         [
           "Flights",
           "$20 · $15 Club Omo"
+        ],
+        [
+          "Dessert",
+          "by Keely's Cake Studio"
         ]
       ],
-      "start": "2026-10-28T20:00:00-07:00",
-      "end": "2026-10-28T23:00:00-07:00",
-      "description": "Free movie night at Omo Mercado in Upland: Carrie (1976) at 8pm with free popcorn. Natural wine flights $20, $15 for Club Omo members."
+      "start": "2026-11-04T20:00:00-08:00",
+      "end": "2026-11-04T23:00:00-08:00",
+      "description": "Free movie night at Omo Mercado in Upland: Pan's Labyrinth (2006) at 8pm with free popcorn and dessert by Keely's Cake Studio. Natural wine flights $20, $15 for Club Omo members."
     },
     {
       "key": "THU",
       "day": "Thursday",
-      "date": "10.29",
-      "iso": "2026-10-29",
-      "headline": "Halloween Trivia",
-      "sub": "Hosted by Angels at the Disco",
+      "date": "11.05",
+      "iso": "2026-11-05",
+      "headline": "Jazz in the Side Room",
+      "sub": "By Stolen Moments",
       "subStyle": "mono",
-      "photo": "photos/2026-10-29-halloween-trivia-spritz-omo-mercado-upland.jpg",
-      "alt": "Guest filling out a Halloween trivia answer sheet next to two spritzes at Omo Mercado",
-      "focus": "50% 45%",
+      "photo": "photos/2026-11-05-jazz-stolen-moments-spritz-omo-mercado-upland.jpg",
+      "alt": "Red-lit blur of a drummer's sticks over the cymbals during jazz night at Omo Mercado in Upland",
+      "focus": "50% 40%",
       "open": "5–11",
-      "callout": "Trivia at 7:30",
+      "callout": "Jazz at 7PM",
       "details": [
         [
           "$10 spritz",
           "all day · $8 NA"
         ],
         [
-          "Food",
-          "by Savory Scallion"
-        ],
-        [
-          "Dessert",
-          "by Beeks Bakery"
+          "Happy hour",
+          "until 6"
         ]
       ],
-      "start": "2026-10-29T19:30:00-07:00",
-      "end": "2026-10-29T23:00:00-07:00",
-      "description": "Halloween trivia at Omo Mercado in Upland hosted by Angels at the Disco at 7:30pm, with $10 spritz all day, food by Savory Scallion and dessert by Beeks Bakery."
+      "start": "2026-11-05T19:00:00-08:00",
+      "end": "2026-11-05T23:00:00-08:00",
+      "description": "Live jazz by Stolen Moments in the side room at Omo Mercado in Upland from 7pm, with $10 spritz all day and $8 NA spritz."
     },
     {
       "key": "FRI",
       "day": "Friday",
-      "date": "10.30",
-      "iso": "2026-10-30",
-      "headline": "Kasino at Omo",
-      "sub": "Live embroidery & shop installation",
+      "date": "11.06",
+      "iso": "2026-11-06",
+      "headline": "Lucky Nick's Pizza",
+      "sub": "The final pop up · Celebrating their new restaurant",
       "subStyle": "mono",
-      "photo": "photos/2026-10-30-kasino-embroidery-pop-up-omo-mercado-upland.jpg",
-      "alt": "Black and white close-up of a neck printed with the Kasino logo, for Kasino at Omo",
+      "photo": "photos/2026-11-06-lucky-nicks-pizza-final-pop-up-omo-mercado-upland.jpg",
+      "alt": "Lucky Nick's Pizza pie with crumbled sausage and parmesan in an open pizza box",
       "focus": "50% 55%",
       "open": "5–11",
-      "callout": "DJ at 7PM",
+      "callout": "",
       "details": [
-        [
-          "DJ set by Marina Soul Club",
-          "· DJ Glenn Red + DJ Blessaid"
-        ],
-        [
-          "Jazzy house",
-          "+ global dancefloor beats"
-        ],
         [
           "Happy hour",
           "until 6"
         ]
       ],
-      "start": "2026-10-30T19:00:00-07:00",
-      "end": "2026-10-30T23:00:00-07:00",
-      "description": "Kasino live embroidery and shop installation at Omo Mercado in Upland, with a DJ set by Marina Soul Club (DJ Glenn Red and DJ Blessaid) from 7pm."
+      "start": "2026-11-06T17:00:00-08:00",
+      "end": "2026-11-06T23:00:00-08:00",
+      "description": "The final Lucky Nick's Pizza pop up at Omo Mercado in Upland, celebrating the opening of their new restaurant. Bar open 5–11."
     },
     {
       "key": "SAT",
       "day": "Saturday",
-      "date": "10.31",
-      "iso": "2026-10-31",
-      "headline": "Halloween Party",
-      "sub": "Free Therapy DJ sets · Ticketed event",
+      "date": "11.07",
+      "iso": "2026-11-07",
+      "headline": "Vinyl Set",
+      "sub": "By My Boogie Valentine",
       "subStyle": "mono",
-      "photo": "photos/2026-10-31-halloween-party-free-therapy-omo-mercado-upland.jpg",
-      "alt": "Packed dance floor at Omo Mercado under red paper lanterns, hands up",
-      "focus": "50% 40%",
-      "open": "7–11",
-      "callout": "DJs at 7PM",
+      "photo": "photos/2026-11-07-vinyl-set-my-boogie-valentine-omo-mercado-upland.jpg",
+      "alt": "Close-up of a 45 spinning under the needle on a red-lit turntable at Omo Mercado in Upland",
+      "focus": "50% 50%",
+      "open": "5–11",
+      "callout": "Vinyl at 7PM",
       "details": [
         [
-          "Mika · Azerae",
-          "· Daniel Pineda · Jeff Pesos"
-        ],
-        [
-          "Costume contest",
-          "+ cash prize"
-        ],
-        [
-          "Food",
-          "by Tacos Tenoch"
+          "Happy hour",
+          "until 6"
         ]
       ],
-      "start": "2026-10-31T19:00:00-07:00",
-      "end": "2026-10-31T23:00:00-07:00",
-      "description": "Ticketed Halloween party at Omo Mercado in Upland with Free Therapy DJ sets by Mika, Azerae, Daniel Pineda and Jeff Pesos from 7pm, a costume contest with cash prize and tacos by Tacos Tenoch.",
-      "link": {
-        "label": "Buy Now",
-        "url": "https://posh.vip/e/free-therapy-presents-west-coast-thriller-inland-empire"
-      }
+      "start": "2026-11-07T19:00:00-08:00",
+      "end": "2026-11-07T23:00:00-08:00",
+      "description": "All-vinyl DJ set by My Boogie Valentine at Omo Mercado in Upland from 7pm. Natural wine bar open 5–11."
     }
   ],
   "everyWeek": [
