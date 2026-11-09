@@ -1,18 +1,18 @@
 {
-  "week": "2026-11-wk01",
-  "range": "Tue 11.03 – Sat 11.07",
-  "updated": "2026-11-02",
+  "week": "2026-11-wk02",
+  "range": "Tue 11.10 – Sun 11.15",
+  "updated": "2026-11-09",
   "days": [
     {
       "key": "TUE",
       "day": "Tuesday",
-      "date": "11.03",
-      "iso": "2026-11-03",
-      "headline": "TiempOmo Run Club",
-      "sub": "Pizza by Crispy Piez",
+      "date": "11.10",
+      "iso": "2026-11-10",
+      "headline": "TiempOmo Glow Run",
+      "sub": "DJ set by Palm Radio",
       "subStyle": "mono",
-      "photo": "photos/2026-11-03-tiempomo-run-club-omo-mercado-upland.jpg",
-      "alt": "TiempOmo run club runners mid-stride at dusk outside Omo Mercado in Upland",
+      "photo": "photos/2026-11-10-tiempomo-glow-run-palm-radio-omo-mercado-upland.jpg",
+      "alt": "TiempOmo runners crossing at night in a red-toned motion blur near Omo Mercado in Upland",
       "focus": "50% 50%",
       "open": "5–11",
       "callout": "",
@@ -20,6 +20,10 @@
         [
           "Run",
           "at 6:30 · all ages"
+        ],
+        [
+          "Food",
+          "by Savory Scallion"
         ],
         [
           "Bar open to public",
@@ -30,117 +34,86 @@
           ""
         ]
       ],
-      "start": "2026-11-03T18:30:00-08:00",
-      "end": "2026-11-03T23:00:00-08:00",
-      "description": "TiempOmo run club meets at Omo Mercado in Upland at 6:30pm, all ages welcome, with pizza by Crispy Piez after. Bar open 5–11."
+      "start": "2026-11-10T18:30:00-08:00",
+      "end": "2026-11-10T23:00:00-08:00",
+      "description": "TiempOmo Glow Run at Omo Mercado in Upland at 6:30pm, all ages, with a DJ set by Palm Radio and food by Savory Scallion. Bar open 5–11."
     },
     {
       "key": "WED",
       "day": "Wednesday",
-      "date": "11.04",
-      "iso": "2026-11-04",
-      "headline": "Cinema & Flights",
-      "sub": "Pan's Labyrinth (2006) on the projector at 8",
+      "date": "11.11",
+      "iso": "2026-11-11",
+      "headline": "Flights",
+      "sub": "Natural wine flights · Every Wednesday",
       "subStyle": "mono",
-      "photo": "photos/2026-11-04-cinema-flights-pans-labyrinth-omo-mercado-upland.jpg",
-      "alt": "Pan's Labyrinth projected on the screen at Omo Mercado in Upland under red paper lanterns, crowd watching",
-      "focus": "50% 45%",
+      "photo": "photos/2026-11-11-natural-wine-flights-byof-omo-mercado-upland.jpg",
+      "alt": "Four-glass natural wine flight on a walnut tray over green tile at Omo Mercado",
+      "focus": "50% 50%",
       "open": "5–11",
-      "callout": "Pan's Labyrinth 2006",
+      "callout": "Flights all night",
       "details": [
+        [
+          "Flights",
+          "$20 · $15 Club Omo members"
+        ],
         [
           "Happy hour",
           "until 6"
         ],
         [
-          "Cinema",
-          "at 8 · Free admission + popcorn"
-        ],
-        [
-          "Flights",
-          "$20 · $15 Club Omo"
-        ],
-        [
           "BYOF",
-          "· Dessert by Keely's Cake Studio"
+          "· No food vendor"
         ]
       ],
-      "start": "2026-11-04T20:00:00-08:00",
-      "end": "2026-11-04T23:00:00-08:00",
-      "description": "Free movie night at Omo Mercado in Upland: Pan's Labyrinth (2006) at 8pm with free popcorn and dessert by Keely's Cake Studio. Natural wine flights $20, $15 for Club Omo members."
+      "start": "2026-11-11T17:00:00-08:00",
+      "end": "2026-11-11T23:00:00-08:00",
+      "description": "Natural wine flights all night at Omo Mercado in Upland, $20 or $15 for Club Omo members. Bring your own food. Open 5–11."
     },
     {
       "key": "THU",
       "day": "Thursday",
-      "date": "11.05",
-      "iso": "2026-11-05",
-      "headline": "Jazz in the Side Room",
-      "sub": "By Stolen Moments",
+      "date": "11.12",
+      "iso": "2026-11-12",
+      "headline": "Gilmore Girls Trivia",
+      "sub": "Hosted by Angels at the Disco",
       "subStyle": "mono",
-      "photo": "photos/2026-11-05-jazz-stolen-moments-spritz-omo-mercado-upland.jpg",
-      "alt": "Red-lit blur of a drummer's sticks over the cymbals during jazz night at Omo Mercado in Upland",
-      "focus": "50% 40%",
+      "photo": "photos/2026-11-12-gilmore-girls-trivia-omo-mercado-upland.jpg",
+      "alt": "Lorelai and Rory Gilmore for Gilmore Girls trivia night at Omo Mercado",
+      "focus": "50% 30%",
       "open": "5–11",
-      "callout": "Jazz at 7PM",
+      "callout": "Trivia at 7:30",
       "details": [
+        [
+          "Burgers",
+          "by Heavy Duty at 6"
+        ],
+        [
+          "Dessert",
+          "by Keely's Cake Studio"
+        ],
         [
           "$10 spritz",
           "all day · $8 NA"
-        ],
-        [
-          "Happy hour",
-          "until 6"
-        ],
-        [
-          "BYOF",
-          "· No food vendor"
         ]
       ],
-      "start": "2026-11-05T19:00:00-08:00",
-      "end": "2026-11-05T23:00:00-08:00",
-      "description": "Live jazz by Stolen Moments in the side room at Omo Mercado in Upland from 7pm, with $10 spritz all day and $8 NA spritz."
+      "start": "2026-11-12T19:30:00-08:00",
+      "end": "2026-11-12T23:00:00-08:00",
+      "description": "Gilmore Girls trivia at Omo Mercado in Upland hosted by Angels at the Disco at 7:30pm, with burgers by Heavy Duty, dessert by Keely's Cake Studio, and $10 spritz all day."
     },
     {
       "key": "FRI",
       "day": "Friday",
-      "date": "11.06",
-      "iso": "2026-11-06",
-      "headline": "Lucky Nick's Pizza",
-      "sub": "The final pop up",
+      "date": "11.13",
+      "iso": "2026-11-13",
+      "headline": "DJ Set",
+      "sub": "By brownsounds",
       "subStyle": "mono",
-      "photo": "photos/2026-11-06-lucky-nicks-pizza-final-pop-up-omo-mercado-upland.jpg",
-      "alt": "Lucky Nick's Pizza pie with crumbled sausage and parmesan in an open pizza box",
-      "focus": "50% 55%",
+      "photo": "photos/2026-11-13-dj-set-brownsounds-omo-mercado-upland.jpg",
+      "alt": "brownsounds in headphones at the decks at Omo Mercado",
+      "focus": "50% 40%",
       "open": "5–11",
-      "callout": "Food at 6PM",
+      "callout": "DJ at 7PM",
       "details": [
-        [
-          "Happy hour",
-          "until 6"
-        ]
-      ],
-      "start": "2026-11-06T18:00:00-08:00",
-      "end": "2026-11-06T23:00:00-08:00",
-      "description": "The final Lucky Nick's Pizza pop up at Omo Mercado in Upland before their new restaurant opens, with food from 6pm. Bar open 5–11."
-    },
-    {
-      "key": "SAT",
-      "day": "Saturday",
-      "date": "11.07",
-      "iso": "2026-11-07",
-      "headline": "Vinyl Set",
-      "sub": "By My Boogie Valentine",
-      "subStyle": "mono",
-      "photo": "photos/2026-11-07-vinyl-set-my-boogie-valentine-omo-mercado-upland.jpg",
-      "alt": "My Boogie Valentine in headphones spinning records at the decks at Omo Mercado in Upland",
-      "focus": "50% 30%",
-      "open": "5–11",
-      "callout": "Vinyl at 7PM",
-      "details": [
-        [
-          "Disco house",
-          "· Global sounds"
-        ],
         [
           "Happy hour",
           "until 6"
@@ -150,9 +123,63 @@
           "· No food vendor"
         ]
       ],
-      "start": "2026-11-07T19:00:00-08:00",
-      "end": "2026-11-07T23:00:00-08:00",
-      "description": "All-vinyl DJ set by My Boogie Valentine at Omo Mercado in Upland from 7pm, playing disco house and global sounds. Natural wine bar open 5–11."
+      "start": "2026-11-13T19:00:00-08:00",
+      "end": "2026-11-13T23:00:00-08:00",
+      "description": "DJ set by brownsounds at Omo Mercado in Upland from 7pm. Bring your own food. Open 5–11."
+    },
+    {
+      "key": "SAT",
+      "day": "Saturday",
+      "date": "11.14",
+      "iso": "2026-11-14",
+      "headline": "Camp Flog Gnaw",
+      "sub": "OMO°FM presents · Featuring the 2026 lineup",
+      "subStyle": "mono",
+      "photo": "photos/2026-11-14-omo-fm-camp-flog-gnaw-omo-mercado-upland.jpg",
+      "alt": "Black and white collage of Camp Flog Gnaw 2026 lineup artists for OMO°FM at Omo Mercado",
+      "focus": "20% 50%",
+      "open": "5–11",
+      "callout": "",
+      "details": [
+        [
+          "Curated",
+          "house playlist all night"
+        ],
+        [
+          "Food",
+          "by Bern"
+        ]
+      ],
+      "start": "2026-11-14T17:00:00-08:00",
+      "end": "2026-11-14T23:00:00-08:00",
+      "description": "OMO°FM presents a Camp Flog Gnaw night at Omo Mercado in Upland, playing the 2026 lineup all night, with food by Bern. Open 5–11."
+    },
+    {
+      "key": "SUN",
+      "day": "Sunday",
+      "date": "11.15",
+      "iso": "2026-11-15",
+      "headline": "Roma Residency",
+      "sub": "Coffee by Roma Coffee Collective",
+      "subStyle": "mono",
+      "photo": "photos/2026-11-15-roma-coffee-collective-residency-omo-mercado-upland.jpg",
+      "alt": "Roma Coffee Collective espresso cart under a paper lantern at Omo Mercado",
+      "focus": "50% 60%",
+      "open": "9–1",
+      "callout": "Also Sun 11.22",
+      "details": [
+        [
+          "Coffee residency",
+          "9AM–1PM"
+        ],
+        [
+          "Sundays",
+          "11.15 + 11.22"
+        ]
+      ],
+      "start": "2026-11-15T09:00:00-08:00",
+      "end": "2026-11-15T13:00:00-08:00",
+      "description": "Roma Coffee Collective coffee residency at Omo Mercado in Upland, Sundays November 15 and 22, 9am to 1pm."
     }
   ],
   "everyWeek": [
