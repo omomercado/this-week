@@ -1,185 +1,169 @@
 {
-  "week": "2026-11-wk02",
-  "range": "Tue 11.10 – Sun 11.15",
-  "updated": "2026-11-09",
+  "week": "2026-11-wk03",
+  "range": "Tue 11.17 – Sun 11.22",
+  "updated": "2026-11-16",
   "days": [
     {
       "key": "TUE",
       "day": "Tuesday",
-      "date": "11.10",
-      "iso": "2026-11-10",
-      "headline": "TiempOmo Glow Run",
-      "sub": "DJ set by Palm Radio",
+      "date": "11.17",
+      "iso": "2026-11-17",
+      "headline": "TiempOmo Run Club",
+      "sub": "Wagyu smash burgers by Heavy Duty",
       "subStyle": "mono",
-      "photo": "photos/2026-11-10-tiempomo-glow-run-palm-radio-omo-mercado-upland.jpg",
-      "alt": "TiempOmo runners crossing at night in a red-toned motion blur near Omo Mercado in Upland",
+      "photo": "photos/2026-11-17-tiempomo-run-club-heavy-duty-omo-mercado-upland.jpg",
+      "alt": "TiempOmo runners filling Omo Mercado in Upland after the Tuesday run, red-toned",
       "focus": "50% 50%",
       "open": "5–11",
       "callout": "",
       "details": [
         [
           "Run",
-          "at 6:30 · all ages"
-        ],
-        [
-          "Food",
-          "by Savory Scallion"
+          "at 6:30"
         ],
         [
           "Bar open to public",
-          "· Inside Omo 21+"
+          ""
         ],
         [
           "Use public parking",
           ""
         ]
       ],
-      "start": "2026-11-10T18:30:00-08:00",
-      "end": "2026-11-10T23:00:00-08:00",
-      "description": "TiempOmo Glow Run at Omo Mercado in Upland at 6:30pm, all ages, with a DJ set by Palm Radio and food by Savory Scallion. Bar open 5–11."
+      "start": "2026-11-17T18:30:00-08:00",
+      "end": "2026-11-17T23:00:00-08:00",
+      "description": "TiempOmo run club at Omo Mercado in Upland, running at 6:30pm, with wagyu smash burgers by Heavy Duty. Bar open to the public 5–11. Ages 21+."
     },
     {
       "key": "WED",
       "day": "Wednesday",
-      "date": "11.11",
-      "iso": "2026-11-11",
-      "headline": "Flights",
-      "sub": "Natural wine flights · Every Wednesday",
+      "date": "11.18",
+      "iso": "2026-11-18",
+      "headline": "Cozy Cat Lino Prints",
+      "sub": "The Creative Club IE presents",
       "subStyle": "mono",
-      "photo": "photos/2026-11-11-natural-wine-flights-byof-omo-mercado-upland.jpg",
-      "alt": "Four-glass natural wine flight on a walnut tray over green tile at Omo Mercado",
+      "photo": "photos/2026-11-18-cozy-cat-lino-print-workshop-omo-mercado-upland.jpg",
+      "alt": "Halftone cat illustration for the Cozy Cat lino print workshop at Omo Mercado in Upland",
       "focus": "50% 50%",
       "open": "5–11",
-      "callout": "Flights all night",
+      "callout": "$25 per person",
       "details": [
         [
-          "Flights",
-          "$20 · $15 Club Omo members"
+          "Ticketed workshop",
+          "· 6–8PM"
         ],
         [
-          "Happy hour",
-          "until 6"
+          "Bar open to public",
+          ""
         ],
         [
-          "BYOF",
-          "· No food vendor"
+          "All materials",
+          "included"
         ]
       ],
-      "start": "2026-11-11T17:00:00-08:00",
-      "end": "2026-11-11T23:00:00-08:00",
-      "description": "Natural wine flights all night at Omo Mercado in Upland, $20 or $15 for Club Omo members. Bring your own food. Open 5–11."
+      "start": "2026-11-18T18:00:00-08:00",
+      "end": "2026-11-18T20:00:00-08:00",
+      "description": "Cozy Cat lino print workshop presented by The Creative Club Inland Empire at Omo Mercado in Upland, 6–8pm. $25 per person, all materials included."
     },
     {
       "key": "THU",
       "day": "Thursday",
-      "date": "11.12",
-      "iso": "2026-11-12",
-      "headline": "Gilmore Girls Trivia",
-      "sub": "Hosted by Angels at the Disco",
+      "date": "11.19",
+      "iso": "2026-11-19",
+      "headline": "Analog Catalog",
+      "sub": "A creative collection · Art exhibition",
       "subStyle": "mono",
-      "photo": "photos/2026-11-12-gilmore-girls-trivia-omo-mercado-upland.jpg",
-      "alt": "Lorelai and Rory Gilmore for Gilmore Girls trivia night at Omo Mercado",
-      "focus": "50% 30%",
+      "photo": "photos/2026-11-19-analog-catalog-art-show-omo-mercado-upland.jpg",
+      "alt": "Black and white grid of artists and works from the Analog Catalog art exhibition at Omo Mercado in Upland",
+      "focus": "50% 50%",
       "open": "5–11",
-      "callout": "Trivia at 7:30",
+      "callout": "Art at 7PM",
       "details": [
         [
-          "Burgers",
-          "by Heavy Duty at 6"
+          "DJs",
+          "Pasties + macintoshtapes"
         ],
         [
-          "Dessert",
-          "by Keely's Cake Studio"
+          "Food",
+          "by Bern"
         ],
         [
           "$10 spritz",
           "all day · $8 NA"
         ]
       ],
-      "start": "2026-11-12T19:30:00-08:00",
-      "end": "2026-11-12T23:00:00-08:00",
-      "description": "Gilmore Girls trivia at Omo Mercado in Upland hosted by Angels at the Disco at 7:30pm, with burgers by Heavy Duty, dessert by Keely's Cake Studio, and $10 spritz all day."
+      "start": "2026-11-19T19:00:00-08:00",
+      "end": "2026-11-19T23:00:00-08:00",
+      "description": "Analog Catalog, a creative collection art exhibition at Omo Mercado in Upland starting at 7pm, with DJs Pasties and macintoshtapes, food by Bern, and $10 spritz all day."
     },
     {
       "key": "FRI",
       "day": "Friday",
-      "date": "11.13",
-      "iso": "2026-11-13",
-      "headline": "DJ Set",
-      "sub": "By brownsounds",
+      "date": "11.20",
+      "iso": "2026-11-20",
+      "headline": "For the Love of Vinyl",
+      "sub": "With Lis Bomb & IE Vinyl Squad",
       "subStyle": "mono",
-      "photo": "photos/2026-11-13-dj-set-brownsounds-omo-mercado-upland.jpg",
-      "alt": "brownsounds in headphones at the decks at Omo Mercado",
-      "focus": "50% 40%",
+      "photo": "photos/2026-11-20-for-the-love-of-vinyl-lis-bomb-omo-mercado-upland.jpg",
+      "alt": "Lis Bomb holding a heart-shaped vinyl record for For the Love of Vinyl at Omo Mercado in Upland",
+      "focus": "50% 30%",
       "open": "5–11",
-      "callout": "DJ at 7PM",
+      "callout": "All vinyl all night",
       "details": [
         [
           "Happy hour",
           "until 6"
-        ],
-        [
-          "BYOF",
-          "· No food vendor"
         ]
       ],
-      "start": "2026-11-13T19:00:00-08:00",
-      "end": "2026-11-13T23:00:00-08:00",
-      "description": "DJ set by brownsounds at Omo Mercado in Upland from 7pm. Bring your own food. Open 5–11."
+      "start": "2026-11-20T17:00:00-08:00",
+      "end": "2026-11-20T23:00:00-08:00",
+      "description": "For the Love of Vinyl at Omo Mercado in Upland, an all-vinyl night with Lis Bomb and IE Vinyl Squad. Open 5–11, happy hour until 6."
     },
     {
       "key": "SAT",
       "day": "Saturday",
-      "date": "11.14",
-      "iso": "2026-11-14",
-      "headline": "Camp Flog Gnaw",
-      "sub": "OMO°FM presents · Featuring the 2026 lineup",
+      "date": "11.21",
+      "iso": "2026-11-21",
+      "headline": "DJ Set",
+      "sub": "By Natural Process",
       "subStyle": "mono",
-      "photo": "photos/2026-11-14-omo-fm-camp-flog-gnaw-omo-mercado-upland.jpg",
-      "alt": "Black and white collage of Camp Flog Gnaw 2026 lineup artists for OMO°FM at Omo Mercado",
-      "focus": "20% 50%",
+      "photo": "photos/2026-11-21-dj-set-natural-process-omo-mercado-upland.jpg",
+      "alt": "Natural Process spinning records on two turntables for a DJ set at Omo Mercado in Upland, red-toned",
+      "focus": "50% 30%",
       "open": "5–11",
       "callout": "",
       "details": [
         [
-          "Curated",
-          "house playlist all night"
-        ],
-        [
-          "Food",
-          "by Bern"
+          "Wagyu smash burgers",
+          "by Heavy Duty"
         ]
       ],
-      "start": "2026-11-14T17:00:00-08:00",
-      "end": "2026-11-14T23:00:00-08:00",
-      "description": "OMO°FM presents a Camp Flog Gnaw night at Omo Mercado in Upland, playing the 2026 lineup all night, with food by Bern. Open 5–11."
+      "start": "2026-11-21T17:00:00-08:00",
+      "end": "2026-11-21T23:00:00-08:00",
+      "description": "DJ set by Natural Process at Omo Mercado in Upland with wagyu smash burgers by Heavy Duty. Open 5–11."
     },
     {
       "key": "SUN",
       "day": "Sunday",
-      "date": "11.15",
-      "iso": "2026-11-15",
+      "date": "11.22",
+      "iso": "2026-11-22",
       "headline": "Roma Residency",
       "sub": "Coffee by Roma Coffee Collective",
       "subStyle": "mono",
-      "photo": "photos/2026-11-15-roma-coffee-collective-residency-omo-mercado-upland.jpg",
-      "alt": "Roma Coffee Collective espresso cart under a paper lantern at Omo Mercado",
+      "photo": "photos/2026-11-22-roma-coffee-collective-residency-omo-mercado-upland.jpg",
+      "alt": "Roma Coffee Collective espresso cart under a paper lantern at Omo Mercado in Upland",
       "focus": "50% 60%",
       "open": "9–1",
-      "callout": "Also Sun 11.22",
+      "callout": "All ages",
       "details": [
         [
           "Coffee residency",
           "9AM–1PM"
-        ],
-        [
-          "Sundays",
-          "11.15 + 11.22"
         ]
       ],
-      "start": "2026-11-15T09:00:00-08:00",
-      "end": "2026-11-15T13:00:00-08:00",
-      "description": "Roma Coffee Collective coffee residency at Omo Mercado in Upland, Sundays November 15 and 22, 9am to 1pm."
+      "start": "2026-11-22T09:00:00-08:00",
+      "end": "2026-11-22T13:00:00-08:00",
+      "description": "Roma Coffee Collective coffee residency at Omo Mercado in Upland, Sunday November 22, 9am to 1pm."
     }
   ],
   "everyWeek": [
