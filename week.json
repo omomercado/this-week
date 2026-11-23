@@ -1,173 +1,154 @@
 {
-  "week": "2026-11-wk03",
-  "range": "Tue 11.17 – Sun 11.22",
-  "updated": "2026-11-16",
+  "week": "2026-11-wk04",
+  "range": "Tue 11.24 – Sat 11.28",
+  "updated": "2026-11-23",
   "days": [
     {
       "key": "TUE",
       "day": "Tuesday",
-      "date": "11.17",
-      "iso": "2026-11-17",
+      "date": "11.24",
+      "iso": "2026-11-24",
       "headline": "TiempOmo Run Club",
-      "sub": "Wagyu smash burgers by Heavy Duty",
+      "sub": "Tacos by Prime Time Meats",
       "subStyle": "mono",
-      "photo": "photos/2026-11-17-tiempomo-run-club-heavy-duty-omo-mercado-upland.jpg",
-      "alt": "TiempOmo runners filling Omo Mercado in Upland after the Tuesday run, red-toned",
+      "photo": "photos/2026-11-24-tiempomo-run-club-palm-radio-omo-mercado-upland.jpg",
+      "alt": "TiempOmo run club runners crossing the street at night in a red motion blur, Omo Mercado in Upland",
       "focus": "50% 50%",
       "open": "5–11",
       "callout": "",
       "details": [
         [
+          "DJ set by",
+          "Palm Radio"
+        ],
+        [
           "Run",
-          "at 6:30"
+          "at 6:30 · all ages"
         ],
         [
           "Bar open to public",
-          ""
+          "· Inside Omo 21+"
         ],
         [
-          "Use public parking",
-          ""
+          "In house",
+          "· $5 off every bottle"
         ]
       ],
-      "start": "2026-11-17T18:30:00-08:00",
-      "end": "2026-11-17T23:00:00-08:00",
-      "description": "TiempOmo run club at Omo Mercado in Upland, running at 6:30pm, with wagyu smash burgers by Heavy Duty. Bar open to the public 5–11. Ages 21+."
+      "start": "2026-11-24T18:30:00-08:00",
+      "end": "2026-11-24T23:00:00-08:00",
+      "description": "TiempOmo Run Club at Omo Mercado in Upland on Tuesday, November 24: run at 6:30, tacos by Prime Time Meats, and a DJ set by Palm Radio, with $5 off every bottle in house."
     },
     {
       "key": "WED",
       "day": "Wednesday",
-      "date": "11.18",
-      "iso": "2026-11-18",
-      "headline": "Cozy Cat Lino Prints",
-      "sub": "The Creative Club IE presents",
+      "date": "11.25",
+      "iso": "2026-11-25",
+      "headline": "Flights & Burgers",
+      "sub": "Wagyu Smash Burgers by Heavy Duty",
       "subStyle": "mono",
-      "photo": "photos/2026-11-18-cozy-cat-lino-print-workshop-omo-mercado-upland.jpg",
-      "alt": "Halftone cat illustration for the Cozy Cat lino print workshop at Omo Mercado in Upland",
-      "focus": "50% 50%",
+      "photo": "photos/2026-11-25-flights-and-burgers-heavy-duty-omo-mercado-upland.jpg",
+      "alt": "A natural wine flight of four glasses on a wood tray in late sun at Omo Mercado in Upland",
+      "focus": "50% 55%",
       "open": "5–11",
-      "callout": "$25 per person",
+      "callout": "Flights all day",
       "details": [
         [
-          "Ticketed workshop",
-          "· 6–8PM"
+          "Flights",
+          "$20 · $15 Club Omo"
         ],
         [
-          "Bar open to public",
-          ""
+          "Happy hour",
+          "until 6"
         ],
         [
-          "All materials",
-          "included"
+          "In house",
+          "· $5 off every bottle"
         ]
       ],
-      "start": "2026-11-18T18:00:00-08:00",
-      "end": "2026-11-18T20:00:00-08:00",
-      "description": "Cozy Cat lino print workshop presented by The Creative Club Inland Empire at Omo Mercado in Upland, 6–8pm. $25 per person, all materials included.",
-      "link": {
-        "label": "Get tickets",
-        "url": "https://www.rainbownessi.com/workshops/p/creep-carve-halloween-linocut-workshop-friday-october-23rd-2026"
-      }
+      "start": "2026-11-25T17:00:00-08:00",
+      "end": "2026-11-25T23:00:00-08:00",
+      "description": "Natural wine flights and wagyu smash burgers by Heavy Duty at Omo Mercado in Upland on Wednesday, November 25, the night before Thanksgiving. Flights $20, $15 for Club Omo, happy hour until 6."
     },
     {
       "key": "THU",
       "day": "Thursday",
-      "date": "11.19",
-      "iso": "2026-11-19",
-      "headline": "Analog Catalog",
-      "sub": "A creative collection · Art exhibition",
-      "subStyle": "mono",
-      "photo": "photos/2026-11-19-analog-catalog-art-show-omo-mercado-upland.jpg",
-      "alt": "Black and white grid of artists and works from the Analog Catalog art exhibition at Omo Mercado in Upland",
-      "focus": "50% 50%",
-      "open": "5–11",
-      "callout": "Art at 7PM",
+      "date": "11.26",
+      "iso": "2026-11-26",
+      "headline": "Closed for Thanksgiving",
+      "sub": "Grateful for this neighborhood",
+      "subStyle": "lydian",
+      "photo": "photos/2026-11-26-closed-for-thanksgiving-omo-mercado-upland.jpg",
+      "alt": "Natural wine bottles lined up on a wood counter against a cream wall at Omo Mercado in Upland",
+      "focus": "50% 70%",
+      "open": "",
+      "callout": "Closed",
       "details": [
         [
-          "DJs",
-          "Pasties + macintoshtapes"
-        ],
-        [
-          "Food",
-          "by Bern"
-        ],
-        [
-          "$10 spritz",
-          "all day · $8 NA"
+          "Back Friday",
+          "for Slow Down"
         ]
       ],
-      "start": "2026-11-19T19:00:00-08:00",
-      "end": "2026-11-19T23:00:00-08:00",
-      "description": "Analog Catalog, a creative collection art exhibition at Omo Mercado in Upland starting at 7pm, with DJs Pasties and macintoshtapes, food by Bern, and $10 spritz all day."
+      "start": "2026-11-26T00:00:00-08:00",
+      "end": "2026-11-26T23:59:00-08:00",
+      "description": "Omo Mercado in Upland is closed on Thursday, November 26 for Thanksgiving and reopens Friday."
     },
     {
       "key": "FRI",
       "day": "Friday",
-      "date": "11.20",
-      "iso": "2026-11-20",
-      "headline": "For the Love of Vinyl",
-      "sub": "With Lis Bomb & IE Vinyl Squad",
+      "date": "11.27",
+      "iso": "2026-11-27",
+      "headline": "Slow Down: Friendsgiving Edition",
+      "sub": "An R&B singalong and wine type of vibe",
       "subStyle": "mono",
-      "photo": "photos/2026-11-20-for-the-love-of-vinyl-lis-bomb-omo-mercado-upland.jpg",
-      "alt": "Lis Bomb holding a heart-shaped vinyl record for For the Love of Vinyl at Omo Mercado in Upland",
-      "focus": "50% 30%",
-      "open": "5–11",
-      "callout": "All vinyl all night",
+      "photo": "photos/2026-11-27-slow-down-friendsgiving-omo-mercado-upland.jpg",
+      "alt": "A packed room singing along at Slow Down at Omo Mercado in Upland under paper lanterns and a disco ball",
+      "focus": "20% 50%",
+      "open": "7–11",
+      "callout": "Ticketed",
       "details": [
         [
-          "Happy hour",
-          "until 6"
+          "Ticketed event",
+          "· Closed to public"
+        ],
+        [
+          "Tickets",
+          "checked at the door"
         ]
       ],
-      "start": "2026-11-20T17:00:00-08:00",
-      "end": "2026-11-20T23:00:00-08:00",
-      "description": "For the Love of Vinyl at Omo Mercado in Upland, an all-vinyl night with Lis Bomb and IE Vinyl Squad. Open 5–11, happy hour until 6."
+      "start": "2026-11-27T19:00:00-08:00",
+      "end": "2026-11-27T23:00:00-08:00",
+      "description": "Slow Down Friendsgiving Edition, a ticketed R&B singalong and natural wine night at Omo Mercado in Upland on Friday, November 27, 7 to 11PM. Closed to the public."
     },
     {
       "key": "SAT",
       "day": "Saturday",
-      "date": "11.21",
-      "iso": "2026-11-21",
-      "headline": "DJ Set",
-      "sub": "By Natural Process",
+      "date": "11.28",
+      "iso": "2026-11-28",
+      "headline": "Small Business Saturday",
+      "sub": "Holiday bottle sale",
       "subStyle": "mono",
-      "photo": "photos/2026-11-21-dj-set-natural-process-omo-mercado-upland.jpg",
-      "alt": "Natural Process spinning records on two turntables for a DJ set at Omo Mercado in Upland, red-toned",
-      "focus": "50% 30%",
-      "open": "5–11",
-      "callout": "",
-      "details": [
-        [
-          "Wagyu smash burgers",
-          "by Heavy Duty"
-        ]
-      ],
-      "start": "2026-11-21T17:00:00-08:00",
-      "end": "2026-11-21T23:00:00-08:00",
-      "description": "DJ set by Natural Process at Omo Mercado in Upland with wagyu smash burgers by Heavy Duty. Open 5–11."
-    },
-    {
-      "key": "SUN",
-      "day": "Sunday",
-      "date": "11.22",
-      "iso": "2026-11-22",
-      "headline": "Roma Residency",
-      "sub": "Coffee by Roma Coffee Collective",
-      "subStyle": "mono",
-      "photo": "photos/2026-11-22-roma-coffee-collective-residency-omo-mercado-upland.jpg",
-      "alt": "Roma Coffee Collective espresso cart under a paper lantern at Omo Mercado in Upland",
+      "photo": "photos/2026-11-28-small-business-saturday-bottle-sale-omo-mercado-upland.jpg",
+      "alt": "Natural wine bottles with Omo Mercado hang tags on the bottle shop shelf in Upland",
       "focus": "50% 60%",
-      "open": "9–1",
-      "callout": "All ages",
+      "open": "5–11",
+      "callout": "Last day of the sale",
       "details": [
         [
-          "Coffee residency",
-          "9AM–1PM"
+          "To go",
+          "· 10% off 1 · 15% off 2+ · 20% off 6+"
+        ],
+        [
+          "In house",
+          "· $5 off every bottle"
+        ],
+        [
+          "BYOF",
+          "· No food vendor"
         ]
       ],
-      "start": "2026-11-22T09:00:00-08:00",
-      "end": "2026-11-22T13:00:00-08:00",
-      "description": "Roma Coffee Collective coffee residency at Omo Mercado in Upland, Sunday November 22, 9am to 1pm."
+      "start": "2026-11-28T17:00:00-08:00",
+      "end": "2026-11-28T23:00:00-08:00",
+      "description": "Small Business Saturday at Omo Mercado in Upland on November 28, the last day of the holiday bottle sale: up to 20% off natural wine bottles to go and $5 off every bottle in house."
     }
   ],
   "everyWeek": [
